@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#87588F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tuesday">
+
+    <Button
+        android:id="@+id/buttonclear"
+        android:layout_width="147dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="showConfirmationDialog"
+        android:text="clear information"
+        android:textColor="#FA71CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText25" />
+
+    <EditText
+        android:id="@+id/editTime125"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="16dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime113"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime117"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="356dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="text"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText25"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime124"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="356dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime117"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime115"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="272dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime121"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="236dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime114"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime122"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="276dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime115"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime119"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime111"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime120"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="16dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime112"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime111"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint=" time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText23"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime114"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="236dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText26"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime118"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="12dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime110"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime110"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime116"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="316dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText29"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime123"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="316dp"
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTime116"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime112"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="156dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText24"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime113"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="196dp"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time"
+        android:textSize="10dp"
+
+        app:layout_constraintStart_toEndOf="@+id/editTextText28"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="213dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="584dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="onClickGet"
+        android:text="Get"
+        android:textColor="#FA71CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="204dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="324dp"
+        android:text="7"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="164dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText23"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="26dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="364dp"
+        android:text="8"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText25"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="356dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="248dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="284dp"
+        android:text="6"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="124dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="636dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="onClickSave1"
+        android:text="SAVE"
+        android:textColor="#FA71CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="213dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="688dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textColor="#FA71CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText28"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="196dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText29"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="316dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="84dp"
+        android:text="1"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="213dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/custom_button"
+        android:text="Tuesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText32"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="276dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="156dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText26"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="236dp"
+        android:drawableStart="@drawable/baseline"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

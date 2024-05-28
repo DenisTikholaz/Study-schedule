@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53456C"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/custom_button"
+        android:onClick="strartActivity3"
+        android:text="Tuesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/custom_button"
+        android:onClick="strartActivity6"
+        android:text="Wednesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/custom_button"
+        android:onClick="strartActivity4"
+        android:text="Thursday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/custom_button"
+        android:onClick="strartActivity5"
+        android:text="Friday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="648dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textColor="#FA71CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/custom_button"
+        android:onClick="strartActivity2"
+        android:text="Monday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
